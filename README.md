@@ -1,5 +1,5 @@
-Follow RHIT setup to get taproot
-link: https://agmui.github.io/notion2hugo_test/docs/guides/taproot-basics/setting-up-taproot/
+## Follow RHIT setup to get taproot ##
+link: https://agmui.github.io/notion2hugo_test/docs/guides/taproot-basics/setting-up-taproot/  <br>
 I recommend the google slides: https://docs.google.com/presentation/d/1WCKfnT1pG3GdZT9Rh7dKZLlVS0-GOQzeXyLNWM2VdPk/edit?usp=sharing 
 
 ## CURRENT WAY TO FLASH ##

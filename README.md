@@ -27,3 +27,40 @@ scons build
 
 ## ADDING NEW BOARD ##
 TODO
+
+## FILES MODIFIED OR ADDED ##
+
+```
+template-project/
+├── project.xml                # edited
+└── src/
+    └── main.cpp              # main file!!!
+
+taproot/
+├── modm-project-files/
+│   ├── module.lb             # edited, added board to MCU_VARIANTS_BY_BOARD and DEFAULT_MODM_OPTIONS_BY_BOARD
+│   └── project.xml.in        # edited, added board elif
+│
+├── src/
+│   └── tap/
+│       ├── board/
+│       │   └── stm32-f446re/             # new folder
+│       │       └── board.hpp.in          # new file, grabbed from modm
+│       │
+│       ├── communication/
+│       │   └── gpio/
+│       │       ├── leds.cpp.in           # edited
+│       │       └── leds.hpp.in           # edited
+│       │
+│       ├── sensors/
+│       │   └── buzzer/
+│       │       └── module.lb             # ?????????
+│       │
+│       └── serial/
+│           └── module.lb                 # edited, added board remote uart
+│
+├── supported-devices/
+│   └── stm32-f446re.xml      # new file
+│
+└── repo.lb                   # edited, added board to enumeration
+```
